@@ -1,0 +1,33 @@
+id: set_kv
+namespace: ecotrend
+
+tasks:
+  - id: gcp_cred
+    type: io.kestra.plugin.core.kv.Set
+    key: GCP_CRED
+    kvType: STRING
+    value: { { your account json file } }
+
+  - id: gcp_project_id
+    type: io.kestra.plugin.core.kv.Set
+    key: GCP_PROJECT_ID
+    kvType: STRING
+    value: eco-trend-471821
+
+  - id: gcp_location
+    type: io.kestra.plugin.core.kv.Set
+    key: GCP_LOCATION
+    kvType: STRING
+    value: us-west1
+
+  - id: gcp_bucket_name
+    type: io.kestra.plugin.core.kv.Set
+    key: GCP_BUCKET_NAME
+    kvType: STRING
+    value: de-eco-trend-bucket
+
+  - id: fred_api_key
+    type: io.kestra.plugin.core.kv.Set
+    key: FRED_API_KEY
+    kvType: STRING
+    value: { { your fred api key } }
