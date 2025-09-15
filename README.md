@@ -11,7 +11,7 @@ To resolve this issue, an automatic workflow was build to
 
 3. Process data with Apache Spark on GCP Dataproc.
 
-4. Store structured, partitioned, and clustered data in BigQuery for analytics.
+4. Store structured, partitioned, and clustered data in BigQuery as data warehouse for analytics.
 
 5. Visualize data through an interactive dashboard in Looker Studio.
 
@@ -23,4 +23,13 @@ The key economic indicators included:
 - Labor Market: Labor Force Participation Rate
 - Economic Activity: Industrial Production Index
 - Housing Market: House Price Index (Case-Shiller National Home Price Index)
+
+<img width="723" height="274" alt="EcoTrend" src="https://github.com/user-attachments/assets/d71506a7-fb19-4a03-ac86-3dbc3316b1f0" />
+
+## Resources:
+- FRED API for the source of economic data
+- Google Cloud Platform (GCS, BigQuery, Dataproc)
+- Kestra for workflow orchestration
+- Apache Spark for scalable data transformations
+- Looker Studio for visualization
 
